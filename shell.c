@@ -16,7 +16,6 @@ int main(int argc, char *argv[], char **env)
 	}
 	else
 	{
-		
 		if (_exec(++argv, env))
 			exit(127);
 	}
