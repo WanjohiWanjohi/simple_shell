@@ -1,9 +1,11 @@
 # C - Simple Shell
-Contributors:
-	- Dennis Kinyua
-	- Wamuyu Wanjohi
-Last project for C
-.Who designed and implemented the original Unix operating system? Answer:Ken Thompson and Dennis Ritchie created the first version of UNIX on a PDP-7 as a team in 1969.
+Contributors:  
+	- Dennis Kinyua  
+	- Wamuyu Wanjohi  
+Last project for C  
+.Who designed and implemented the original Unix operating system?  
+Answer:Ken Thompson and Dennis Ritchie created the first version of UNIX on a PDP-7 as a team in 1969.  
+
 2.Who wrote the first version of the UNIX shell? Answer: The fisrt Unix shell was the Thompson shell, sh, written by Ken Thompson at Bell Labs and which was distribued with versions 1 through 6 of Unix, from 1971 to 1975.
 3.Who invented the B programming language (the direct predecessor to the C programming language)? Answer: B programming language was developed at Bell Labs circa 1969, by Ken Thompson and Dennis Ritchie
 4.Who is Ken Thompson? Answer: There are many meaning to who Ken Thompson is, but Kenneth Lane Thompson is an American pioneer of computer science. Thompson worked at Bell Labs for most of his career where he designd and implemented the original Unix operating system.
