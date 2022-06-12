@@ -1,14 +1,16 @@
 # C - Simple Shell
 Contributors:  
-	- Dennis Kinyua  
-	- Wamuyu Wanjohi  
+	* Dennis Kinyua  
+	* Wamuyu Wanjohi  
 Last project for C  
-.Who designed and implemented the original Unix operating system?  
+1. Who designed and implemented the original Unix operating system?  
 Answer:Ken Thompson and Dennis Ritchie created the first version of UNIX on a PDP-7 as a team in 1969.  
 
-2.Who wrote the first version of the UNIX shell? Answer: The fisrt Unix shell was the Thompson shell, sh, written by Ken Thompson at Bell Labs and which was distribued with versions 1 through 6 of Unix, from 1971 to 1975.
-3.Who invented the B programming language (the direct predecessor to the C programming language)? Answer: B programming language was developed at Bell Labs circa 1969, by Ken Thompson and Dennis Ritchie
-4.Who is Ken Thompson? Answer: There are many meaning to who Ken Thompson is, but Kenneth Lane Thompson is an American pioneer of computer science. Thompson worked at Bell Labs for most of his career where he designd and implemented the original Unix operating system.
+2. Who wrote the first version of the UNIX shell?  
+Answer: The fisrt Unix shell was the Thompson shell, sh, written by Ken Thompson at Bell Labs and which was distribued with versions 1 through 6 of Unix, from 1971 to 1975.  
+3. Who invented the B programming language (the direct predecessor to the C programming language)?  
+Answer: B programming language was developed at Bell Labs circa 1969, by Ken Thompson and Dennis Ritchie
+4. Who is Ken Thompson? Answer: There are many meaning to who Ken Thompson is, but Kenneth Lane Thompson is an American pioneer of computer science. Thompson worked at Bell Labs for most of his career where he designd and implemented the original Unix operating system.
 5.How does a shell work? Answer: Shell corresponds in the computer world to a command intrpreter where the usr has an available interface (CLI, Command-Line Interface), through which he has the possibility of accessing services of the operating system as well as executing or invoking programs
 6. What is a pid and a ppid? Answer: PID stands for Process ID, which means Identification Number for currently running process in Memory. while PPID stands for Parent Process ID, which means Parent Process is the responsible for creating the current process(Child Process). Through Parent Process, The child process will be created.
 7. How to manipulate the environment of the current process? Answer:You can only influence a process's environment variables at the time the process starts up.If you need to communicate a change to a running process, the environment isn't the right tool, to perform it.
