@@ -24,3 +24,32 @@ simple_shell executes commands that the user puts on the terminal.
 - It is used to list information about files and directories within the file system.
 The ls utility is a part of the GNU core utilities which are installed on all Linux distributions.
 
+INVOKE
+
+Compile simple_shell with the GNU Compiler Collection:
+.P
+.RS
+.B $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.P
+.RE
+This shell works in two modes:
+.TP
+.B Interactive Mode
+.TP
+The shell read the commands from the standard input and executes them.
+.TP
+.B Non-interactive Mode
+.TP
+Reads the commands from a file sent thru a pipe, the commands will be executed.
+
+
+.SH BUILTINS
+
+The following builtin commands are supported:
+
+.IT
+.B env
+- prints the environment variables
+
+.B exit
+- exits the program
