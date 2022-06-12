@@ -23,8 +23,11 @@ Answer: I UNIX and POSIX you call fork() and then exec() to create a process. Wh
 10. What are the three prototypes of main?  
 Answer: They are, int main(); , int main(int argc, char **argv);
 11. How does the shell use the PATH to find the programs?  
-Answer: The shell tries each directory in the PATh, left-to-right, and runs the executable program with the matchig command name that it finds
-12. How to execute another program with the execve system call? Answer: execve() executes the program pointed to by filename. filename must be either a binary executable. or a script starting with a line of the form "#! interpreter [arg]". execve() does not return on success, and the text, data, bss, and stack of the calling process are overwritten by that of the program loaded.
-13. How to suspend the execution of a process until one of its children terminates? Answer: "The wait() system call" suspends execution of the current process untilone of its children terminates
-What is EOF / “end-of-file”? The EOF operator is used in many programming languages. This operator stands for the end of the file. This means that wherever a compiler or an interpreter encounters this oprator, it will receive an indication that the file it was reading has ended
+**Answer:** The shell tries each directory in the PATh, left-to-right, and runs the executable program with the matchig command name that it finds
+12. How to execute another program with the execve system call?  
+**Answer:** execve() executes the program pointed to by filename. filename must be either a binary executable. or a script starting with a line of the form "#! interpreter [arg]". execve() does not return on success, and the text, data, bss, and stack of the calling process are overwritten by that of the program loaded.
+13. How to suspend the execution of a process until one of its children terminates?  
+**Answer:** "The wait() system call" suspends execution of the current process untilone of its children terminates
+14. What is EOF / “end-of-file”?  
+**Answer:** The EOF operator is used in many programming languages. This operator stands for the end of the file. This means that wherever a compiler or an interpreter encounters this oprator, it will receive an indication that the file it was reading has ended
 
