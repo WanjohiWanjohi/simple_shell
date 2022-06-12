@@ -1,0 +1,26 @@
+.TH hsh 1 "jun 13, 2022" "1.0" "hsh General Commands Manual "
+
+.SH NAME
+
+.B simple_shell - hsh
+- command line interpreter or shell
+
+
+.SH SYNOPSIS
+
+.B  ./hsh
+
+
+.SH DESCRIPTION
+
+simple_shell is a command line interpreter. It is a program that executes other programs,
+the user can run different commands or utilities/tools with some input data.
+
+.SH OVERVIEW
+
+simple_shell executes commands that the user puts on the terminal.
+
+.B ls
+- It is used to list information about files and directories within the file system.
+The ls utility is a part of the GNU core utilities which are installed on all Linux distributions.
+
