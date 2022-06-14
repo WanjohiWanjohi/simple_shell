@@ -1,4 +1,4 @@
-.TH hsh 1 "jun 13, 2022" "1.0" "hsh General Commands Manual "
+.TH hsh 1 "june 14, 2022" "1.0" "hsh General Commands Manual "
 
 .SH NAME
 
@@ -24,7 +24,7 @@ simple_shell executes commands that the user puts on the terminal.
 - It is used to list information about files and directories within the file system.
 The ls utility is a part of the GNU core utilities which are installed on all Linux distributions.
 
-INVOKE
+.SH INVOCATION
 
 Compile simple_shell with the GNU Compiler Collection:
 .P
@@ -53,3 +53,17 @@ The following builtin commands are supported:
 
 .B exit
 - exits the program
+
+Example of builtin command:
+to fill in later
+
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+
+Wamuyu Wanjohi, Dennis Kinyua
+
+.SH SEE ALSO
+sh
