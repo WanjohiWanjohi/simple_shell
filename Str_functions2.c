@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- *_strlen - return the length of a string
+ *_strlen - function that returns the length of a string
  *@s: character
  *Return: length os string
  */
@@ -16,7 +16,7 @@ int _strlen(char *s)
 }
 
 /**
- *_strncmp - return the length of a string
+ *_strncmp - function that return the length of a string
  *@s1: string 1 to comparate
  *@s2: string 2 to comparate
  *@n: number of characters to comparate
@@ -40,7 +40,7 @@ int _strncmp(char *s1, char *s2, int n)
 }
 
 /**
- * _putchar - writes the character c to stdout
+ * _putchar - will write the character c to stdout
  * @c: The character to print
  *
  * Return: On success 1.

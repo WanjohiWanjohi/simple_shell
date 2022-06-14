@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * _GetEnv - obtain value of a enviroment var
+ * _GetEnv - Function that obtains value of a enviroment var
  * @var: name of enviroment var
  * @env: enviroment
  * Return: value of enviroment var

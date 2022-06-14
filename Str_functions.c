@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcpy - copies the string pointed to by src,
+ * _strcpy - function that copies the string pointed to by src,
  * @dest: destnation poiter to take value
  * @src: array poited that gets copied
  * Description: copies string pointed to by src,
@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- *_strchr - locates a character in a string
+ *_strchr - function that locates a character in a string
  *@s: string
  *@c: string
  *Return: a pointer to the first occurrence of character c in the string s
@@ -39,7 +39,7 @@ char *_strchr(char *s, char c)
 }
 
 /**
- *_strcat - concatenates two strings
+ *_strcat - function that concatenates two strings
  *@dest: Destination of the new string
  *@src: Source of the string
  *Return: Return dest
@@ -61,7 +61,7 @@ char *_strcat(char *dest, char *src)
 }
 
 /**
- * _strdup -  returns a pointer to a newly allocated space in memory
+ * _strdup -  Will return a pointer to a newly allocated space in memory
  * which contains a copy of the string given as a parameter
  * @str: string
  * Return: Pointer to the duplicate, NULL if it fails
